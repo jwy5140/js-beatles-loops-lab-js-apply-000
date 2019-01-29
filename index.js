@@ -5,7 +5,7 @@ function theBeatlesPlay(a, b)
   {
     ab[n] = a + " plays " + b;
   }
-  
+  return ab;
 }
 
 function johnLennonFacts(c)
@@ -16,6 +16,7 @@ function johnLennonFacts(c)
     c[n] = c[n] + "!!!";
     ++n;
   }
+  return c;
 }
 
 function iLoveTheBeatles(z)
@@ -28,4 +29,5 @@ function iLoveTheBeatles(z)
     ++z;
   }
   while (z < 15);
+  return x;
 }
