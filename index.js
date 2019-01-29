@@ -10,5 +10,11 @@ function theBeatlesPlay(a, b)
 
 function johnLennonFacts(c)
 {
-  while (c)
+  var n = 0;
+  while (n < c.length)
+  {
+    c[n] = c[n] + "!!!";
+    ++n;
+  }
 }
+
