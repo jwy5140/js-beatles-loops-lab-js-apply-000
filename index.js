@@ -27,5 +27,5 @@ function iLoveTheBeatles(z)
     x.push("I love the Beatles!");  
     ++z;
   }
-  while (z < 15)
+  while (z < 15);
 }
