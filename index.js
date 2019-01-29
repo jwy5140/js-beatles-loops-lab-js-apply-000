@@ -24,6 +24,8 @@ function iLoveTheBeatles(z)
   
   do
   {
-    x.push  
+    x.push("I love the Beatles!");  
+    ++z;
   }
+  while (z < 15)
 }
