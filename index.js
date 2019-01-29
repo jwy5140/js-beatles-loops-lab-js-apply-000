@@ -3,7 +3,7 @@ function theBeatlesPlay(a, b)
   var ab = [];
   for (var n = 0; n < a.length; n++)
   {
-    ab[n] = a[] + " plays " + b[];
+    ab[n] = a[n] + " plays " + b[n];
   }
   return ab;
 }
